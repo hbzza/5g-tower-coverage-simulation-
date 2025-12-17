@@ -19,3 +19,23 @@ Matplotlib – Visualization and plotting
 A 2D coverage heatmap showing signal strength distribution
 Clear visualization of strong and weak signal regions
 Insight into how distance impacts 5G signal propagation
+
+### ⚙️ Installation
+To run this project locally, follow these steps:
+
+#### Clone the repository:
+
+`git clone https://github.com/your-username/5g-coverage-simulation.git`
+
+`cd 5g-coverage-simulation`
+
+#### Install the required linraries: 
+You need to have Python installed along with numpy and matpoltlib library.
+
+`pip install numpy`
+
+`pip install matplotlib`
+
+#### Run the program:
+
+`py main.py`
