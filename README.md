@@ -10,7 +10,7 @@ Simulate received signal strength over a grid surrounding a base station
 Visualize signal coverage using a heatmap
 Demonstrate the use of Python for network simulation and data visualization
 
-### Tools & Technologies
+### Tools used
 Python 3.x – Core programming language
 NumPy – Numerical computations and array operations
 Matplotlib – Visualization and plotting 
@@ -33,7 +33,7 @@ git clone https://github.com/your-username/5g-coverage-simulation.git
 cd 5g-coverage-simulation
 ```
 
-#### Install the required linraries: 
+#### Install the required libraries: 
 You need to have Python installed along with numpy and matpoltlib library.
 
 ```
