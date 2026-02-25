@@ -30,3 +30,25 @@ plt.title("5G Tower Coverage Heatmap")
 plt.xlabel("Distance X (m)")
 plt.ylabel("Distance Y (m)")
 plt.show()
+
+dist_range = np.linspace(1, 1000, 400)
+signal_line = tower_power - path_loss(dist_range)
+
+plt.figure(figsize=(7,5))
+plt.plot(dist_range, signal_line, color='orange')
+plt.title("5G Signal Strength vs Distance")
+plt.xlabel("Distance from Tower (m)")
+plt.ylabel("Signal Strength (dBm)")
+plt.grid(True)
+plt.show()
+
+users = np.array([10, 50, 100, 200, 300, 400, 500])
+latency = 5 + (users ** 1.2) / 50   # Simple congestion model
+
+plt.figure(figsize=(7,5))
+plt.plot(users, latency, marker='o', color='green')
+plt.title("5G Tower Load vs Latency")
+plt.xlabel("Number of Users")
+plt.ylabel("Latency (ms)")
+plt.grid(True)
+plt.show()
